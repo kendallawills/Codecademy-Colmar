@@ -140,11 +140,11 @@ nav a {
 .info {
     max-width: 100%;
     display: flex;
-    padding: 16px 24px;
+    padding: 16px 16px;
 }
 
 .top {
-    padding: 0 24px 16px 24px;
+    padding: 0 24px 16px 16px;
 }
 
 .info-photo {
@@ -157,7 +157,13 @@ nav a {
 
 .description {
     max-width: 65%;
-    padding-left: 24px;
+    margin-left: 8px;
+    line-height: 1;
+}
+
+.description a {
+    text-decoration: none;
+    color: #0000ff;
 }
 
 .dark {
