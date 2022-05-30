@@ -72,10 +72,12 @@ nav a {
     display: flex;
     align-items: center;
     padding: 32px 24px;
+    width: 100%;
 }
 
 .cover {
     width: 60%; /* BOTH COVERS */
+    margin-right: 24px;
 }
 
 .cover img {
@@ -120,8 +122,37 @@ nav a {
 #articles {
     display: flex;
     padding: 32px 24px;
+    width: 100%;
 }
 
 .information {
     width: 40%;
+    border-left: 1px solid #d3d3d3;
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    display: flex;
+    padding: 16px 24px;
+}
+
+.top {
+    padding: 0 24px 16px 24px;
+}
+
+.info-photo {
+    width: 35%;
+}
+
+.info-photo img {
+    width: 100%;
+}
+
+.description {
+    width: 65%;
+}
+
+.dark {
+    background-color: #d3d3d3;
 }
