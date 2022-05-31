@@ -131,7 +131,7 @@ nav a {
     margin-top: 16px;
 }
 
-.information {
+.information { /* BOTH INFORMATION CLASSES */
     max-width: 40%;
     border-left: 1px solid #d3d3d3;
     display: flex;
@@ -241,3 +241,5 @@ nav a {
 .video video {
     max-width: 100%;
 }
+
+/* THESIS EXHIBIT */
