@@ -174,3 +174,43 @@ nav a {
 
 /* COURSES */
 
+#courses {
+    background-color: #d3d3d3;
+}
+
+#courses h1 {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 32px;
+}
+
+.course-icons {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.program {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin: 16px;
+    background-color: #ffffff;
+}
+
+.program img {
+    width: 100%;
+    padding: 0;
+}
+
+.program a {
+    color: #303030;
+    text-decoration: none;
+}
+
+.details {
+    margin-left: 16px;
+}
+
