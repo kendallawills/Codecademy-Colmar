@@ -227,3 +227,17 @@ nav a {
     line-height: 1.5;
     margin: 8px 0;
 }
+
+/* THESIS EXHIBIT */
+
+#thesis {
+    max-width: 100%;
+}
+
+.video {
+    max-width: 60%;
+}
+
+.video video {
+    max-width: 100%;
+}
